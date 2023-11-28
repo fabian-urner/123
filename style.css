@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  _outline: solid red 1px;
+}
+
+:root {
+  font-size: 10px;
+  --color-text: #222;
+  --color-primery: goldenrod;
+  --color-secondary: ivory;
+  --color-accent: teal;
+  --color-text-accent: ivory;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--color-text-accent);
+}
+
+/* Specific Styling */
